@@ -10,7 +10,7 @@
 ## Sobre
 Este é um bot para a NimoTV, com o propósito de usar comandos melhores na plataforma, já que a mesma não dispõe comandos para elo no lol, nem contadores de uso de comandos. O bot foi feito a partir de um código feito para <a href="https://github.com/franciscojr-dev/websocket-nimotv">análise em tempo real de transmissões na Nimo</a>.
 
-- Ultima vez testado em 03/01/2021
+- Ultima vez testado em 15/01/2021
 
 ## Recursos
 - Infinitos comandos personalizados, com no máximo 100 caracteres (limite imposto pela própria Nimo para usuários).
@@ -22,6 +22,8 @@ Este é um bot para a NimoTV, com o propósito de usar comandos melhores na plat
     - <b>!elo</b>: mostra o elo do League of Legends.
     - <b>!wr</b>: mostra o winrate do League of Legends.
     - <b>!lastgame</b>: mostra se você ganhou ou perdeu o último jogo, com o que você jogou e seu KDA do League of Legends.
+    - <b>!challenger</b>: mostra quantos pontos faltam para o Challenger no League of Legends (a conta precisa estar Mestre+ para o bot calcular os PDLs).
+- Timers que mandam uma mensagem a cada X segundos.
 - Pode ser usado em infinitos canais.
 
 ## Como usar
