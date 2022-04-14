@@ -10,7 +10,7 @@
 ## Sobre
 Este é um bot para a NimoTV, com o propósito de usar comandos melhores na plataforma, já que a mesma não dispõe comandos para elo no lol, nem contadores de uso de comandos. O bot foi feito a partir de um código feito para <a href="https://github.com/franciscojr-dev/websocket-nimotv">análise em tempo real de transmissões na Nimo</a>.
 
-- Ultima vez testado em 15/01/2021
+- Ultima vez testado em 28/02/2022
 
 ## Recursos
 - Infinitos comandos personalizados, com no máximo 100 caracteres (limite imposto pela própria Nimo para usuários).
