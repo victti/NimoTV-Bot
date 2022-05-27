@@ -1,5 +1,7 @@
 # NimoTV Bot
 
+## Infelizmente a NimoTV foi descontinuada no Brasil, então não estarei mais atualizando o bot para as versões mais atuais da "API" da Nimo. Estarei deixando ambas as versões que criei (NodeJS e C#) disponíveis.
+
 <p align="center">
   <img width="250" height="250" src="https://victti.github.io/bot%20icon.png">
 </p>
@@ -28,7 +30,10 @@ Este é um bot para a NimoTV, com o propósito de usar comandos melhores na plat
 
 ## Como usar
 
-TBD
+1. Abra o painel de desenvolvedor do seu navegador
+2. Vá na aba Application
+3. Em Local Storage do site da Nimo adicione a variável `_logLevel` com o valor `-6`.
+4. Pegue os dados necessários para o bot na aba Console.
 
 ## Créditos
 - <a href="https://github.com/franciscojr-dev">Francisco Júnior</a>
