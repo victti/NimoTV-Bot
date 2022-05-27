@@ -30,10 +30,11 @@ Este é um bot para a NimoTV, com o propósito de usar comandos melhores na plat
 
 ## Como usar
 
-1. Abra o painel de desenvolvedor do seu navegador
-2. Vá na aba Application
-3. Em Local Storage do site da Nimo adicione a variável `_logLevel` com o valor `-6`.
-4. Pegue os dados necessários para o bot na aba Console.
+1. Abra o painel de desenvolvedor do seu navegador e vá na aba Application
+2. Em Local Storage do site da Nimo adicione a variável `_logLevel` com o valor `-6`.
+3. Pegue os dados necessários para o bot na aba Console.
+4. Vá na página <a href="https://www.nimo.tv/i/my-subscribe">https://www.nimo.tv/i/my-subscribe</a> e vá na aba Network do painel de desenvolvedor do seu navegador
+5. Procure pelo `fetch` da página `followListForWeb` e pegue o payload `Body` e coloque nas config do bot. 
 
 ## Créditos
 - <a href="https://github.com/franciscojr-dev">Francisco Júnior</a>
