@@ -1,0 +1,30 @@
+{
+    "CORS":
+    {
+        "host": "don't change",
+        "port": "don't change"
+    },
+    "RiotAPI":
+    {
+        "enabled": true/false,
+        "key": "get from Riot"
+    },
+    "NimoAPI":
+    {
+        "followerBody": "get this on your followers page from a request to 'follow-cf-dynamic.nimo.tv' on the 'body' param",
+        "channelID": "the channel id where you want to send the message to (use popup chat and get the final numbers of the URL)",
+        "tokens":
+        {
+            "hello":
+            [
+                "the first BASE64 websocket packet your navigator sends to Nimo",
+                "the second BASE64 websocket packet your navigator sends to Nimo"
+            ],
+            "info":
+            [
+                "should be the third BASE64 packet your navigator sends to Nimo, but may variate depending on the channel you are in",
+                "should be the fourth BASE64 packet your navigator sends to Nimo, but may variate depending on the channel you are in"
+            ]
+        }
+    }
+}

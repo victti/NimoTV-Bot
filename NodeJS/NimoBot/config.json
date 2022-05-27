@@ -1,0 +1,121 @@
+{
+    "CORS":
+    {
+        "host": "0.0.0.0",
+        "port": 8080
+    },
+    "RiotAPI":
+    {
+        "enabled": false,
+        "key": ""
+    },
+    "NimoAPI":
+    {
+        "login":
+        {
+            "username": "",
+            "lUid": 0,
+            "sUA": "",
+            "sAppSrc": "",
+            "sCookie": "",
+            "sGuid": "",
+            "sToken": ""
+        },
+        "followerBody": "",
+        "channels":[
+            {
+                "channelID": 6121412316,
+                "channelName": "Tinowns",
+                "commandPrefix": "!",
+                "commands":
+                [
+                    {
+                        "enabled": true,
+                        "showOnCommands": false,
+                        "command": "discord",
+                        "alias": [],
+                        "response": "Discord do tin: https://discord.gg/dUHzYsC73z"
+                    },
+                    {
+                        "enabled": true,
+                        "showOnCommands": true,
+                        "command": "cblol",
+                        "alias": [],
+                        "response": "Sábado (14h): LLL (-) x (-) ITZ | Domingo (13h): KBM (-) x (-) LLL"
+                    },
+                    {
+                        "enabled": true,
+                        "showOnCommands": true,
+                        "command": "perifericos",
+                        "alias": ["periféricos"],
+                        "response": "Periféricos do Tin: https://s.nimo.tv/rwBHW7Q"
+                    },
+                    {
+                        "enabled": true,
+                        "showOnCommands": false,
+                        "command": "catapa",
+                        "alias": [],
+                        "response": "O Tin perdeu uma catapa ${count} vezes!"
+                    },
+                    {
+                        "enabled": true,
+                        "showOnCommands": false,
+                        "command": "banheiro",
+                        "alias": [],
+                        "response": "O Tin já foi no banheiro pegar água ${count} vezes!"
+                    },
+                    {
+                        "enabled": true,
+                        "showOnCommands": false,
+                        "command": "fiscal",
+                        "alias": [],
+                        "response": "Mais um fiscal de música chegou, até agora foram ${count} fiscais!"
+                    },
+                    {
+                        "enabled": true,
+                        "showOnCommands": true,
+                        "command": "tela",
+                        "alias": [],
+                        "response": "O Tin esqueceu de trocar de tela ${count} vezes!"
+                    },
+                    {
+                        "enabled": true,
+                        "showOnCommands": true,
+                        "command": "fila",
+                        "alias": ["queue"],
+                        "response": "O Tin perdeu a fila ${count} vezes!"
+                    },
+                    {
+                        "enabled": true,
+                        "showOnCommands": true,
+                        "command": "mejai",
+                        "alias": [],
+                        "response": "E o Tin perdeu a mejai mais uma vez. Já são ${count} vezes!"
+                    }
+                ],
+                "timers":
+                [
+                    {
+                        "enabled": true,
+                        "interval": 1200,
+                        "chatLines": 20,
+                        "message": "Viu uma jogada boa ou um momento engraçado? Clipe e compartilhe!",
+                        "message2": "Quer mostrar apoio? Doe seus trevos, vire fã ou inscreva-se!",
+                        "message3": "Está gostando da live? Deixe seu follow",
+                        "message4": "Evitem enviar mensagens em full capslock no chat!",
+                        "message5": "Na Nimo agora temos comandos no chat. Para saber os comandos da live mande !comandos",
+                        "message6": "Perdeu o resultado da última partida? Mande um !lastgame",
+                        "message7": "Quer saber o elo do tin? Só mandar !elo",
+                        "message8": "Viu o tin perdendo uma catapa? Mande um !catapa"
+                    }
+                ],
+                "league":
+                {
+                    "SummonerID": "",
+                    "PUUID": "",
+                    "Region": ""
+                }
+            }
+        ]
+    }
+}

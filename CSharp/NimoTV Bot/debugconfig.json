@@ -1,0 +1,57 @@
+﻿{
+  "Riot": {
+    "enabled": true,
+    "key": ""
+  },
+  "YouTube": {
+    "enabled": true,
+    "key": ""
+  },
+  "Nimo": {
+    "login": {
+      "username": "",
+      "lUid": 0,
+      "sUA": "",
+      "sAppSrc": "",
+      "sCookie": "",
+      "sGuid": "",
+      "sToken": ""
+    },
+    "followerBody": "",
+    "channels": [
+      {
+        "channelID": 6443583851,
+        "channelName": "victti",
+        "commands": [
+          {
+            "enabled": true,
+            "command": "random",
+            "alias": [],
+            "response": "Teste ${random}"
+          },
+          {
+            "enabled": true,
+            "command": "cblol",
+            "alias": [],
+            "script": "cblol",
+            "args": [
+              "98767991332355509",
+              "LLL"
+            ]
+          },
+          {
+            "enabled": true,
+            "command": "tvzan",
+            "alias": [],
+            "response": "Esse game tem ${random}% de ir pro tvzan Kappa"
+          }
+        ],
+        "league": {
+          "SummonerID": "",
+          "PUUID": "",
+          "Region": ""
+        }
+      }
+    ]
+  }
+}

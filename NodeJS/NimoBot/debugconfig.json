@@ -1,0 +1,69 @@
+{
+    "CORS":
+    {
+        "host": "0.0.0.0",
+        "port": 8081
+    },
+    "RiotAPI":
+    {
+        "enabled": false,
+        "key": ""
+    },
+    "NimoAPI":
+    {
+        "login":
+        {
+            "username": "",
+            "lUid": 0,
+            "sUA": "",
+            "sAppSrc": "",
+            "sCookie": "",
+            "sGuid": "",
+            "sToken": ""
+        },
+        "followerBody": "",
+        "channels":[
+            {
+                "channelID": 6443583851,
+                "channelName": "victti",
+                "commandPrefix": "!",
+                "commands":
+                [
+                    {
+                        "enabled": true,
+                        "command": "teste",
+                        "alias": ["teste2"],
+                        "response": "Apenas um comando de teste pela ${count} vez!"
+                    },
+                    {
+                        "enabled": true,
+                        "command": "fila",
+                        "alias": ["queue"],
+                        "response": "O Tin perdeu a fila ${count} vezes!"
+                    },
+                    {
+                        "enabled": true,
+                        "command": "cblol",
+                        "alias": [],
+                        "response": "Sábado (13h): LLL (V) x (D) FUR | Domingo (14h): RED (-) x (-) LLL"
+                    }
+                ],
+                "timers":
+                [
+                    {
+                        "enabled": true,
+                        "interval": 300,
+                        "chatLines": 1,
+                        "message": "Viu o tin perdendo uma catapa? Mande um !catapa"
+                    }
+                ],
+                "league":
+                {
+                    "SummonerID": "",
+                    "PUUID": "",
+                    "Region": ""
+                }
+            }
+        ]
+    }
+}
